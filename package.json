@@ -1,0 +1,37 @@
+{
+  "name": "opm-api",
+  "version": "1.0.0",
+  "description": "One Punch Man API with SurrealDB Cloud",
+  "type": "module",
+  "author": {
+    "name": "Mindlunny",
+    "url": "https://github.com/PineberryCode"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "NODE_OPTIONS='--experimental-vm-modules' NODE_ENV=test jest --detectOpenHandles"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "dotenv": "16.4.7",
+    "express": "4.21.2",
+    "morgan": "1.10.0",
+    "nodemailer": "^6.10.0",
+    "nodemon": "3.1.9",
+    "redis": "^4.7.0",
+    "response-time": "2.3.3",
+    "surrealdb": "1.2.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "jest": "29.7.0",
+    "standard": "17.1.2",
+    "supertest": "7.0.0"
+  },
+  "jest": {
+    "testSequencer": "./src/custom-sequencer.js",
+    "setupFilesAfterEnv": [
+      "./src/jest.setup.js"
+    ]
+  }
+}
