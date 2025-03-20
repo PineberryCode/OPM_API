@@ -39,7 +39,7 @@ DB_NM=your_namespace
 DB_NAME=your_db_name
 DB_TABLE=your_table_name
 URL_INSTANCE_TEST=http://127.0.0.1:8000/rpc
-ACCESS_TOKEN_SECRET=your.secret.token
+SALT=your.secret.token
 FROM_EMAIL=you@gmail.com
 APP_GMAIL_PASSWORD=your gmail password
 ```
