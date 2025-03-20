@@ -1,11 +1,11 @@
 # SUMMARY
 - - -
-It's a REST API about the characters of OPM (One Punch Man), It includes some features such as:
+It is a REST API about the characters of OPM (One Punch Man). It includes some features such as:
 - Character skills
 - Nicknames
 - Age and special ability
 - Physical attributes (Height & weight)
-- Human & monster clasification.
+- Human & monster classification
 - Weapons and ranking system
 - - -
 ### All routes
@@ -45,7 +45,7 @@ APP_GMAIL_PASSWORD=your gmail password
 ```
 - - -
 ## Data
-After creating an instance in Surreal Cloud, you can copy and paste this <a href="https://gist.github.com/PineberryCode/f337ded8f8be549b92a8b4b52e47af29" target="_blank" rel="noopener noreferrer">data</a>.
+After creating an instance in Surreal Cloud, you can copy and paste this [data](https://gist.github.com/PineberryCode/f337ded8f8be549b92a8b4b52e47af29).
 
 - - -
 ## Run Tests
@@ -59,4 +59,4 @@ npm run test
 ```
 
 > [!IMPORTANT]
-> Comming soon, add new attributes in a specific record ;).
+> Comming soon, the user will add new attributes in a specific record.
