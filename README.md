@@ -47,5 +47,16 @@ APP_GMAIL_PASSWORD=your gmail password
 ## Data
 After creating an instance in Surreal Cloud, you can copy and paste this <a href="https://gist.github.com/PineberryCode/f337ded8f8be549b92a8b4b52e47af29" target="_blank" rel="noopener noreferrer">data</a>.
 
+- - -
+## Run Tests
+First, you need to install SurrealDB on your device. Then, you can copy and paste the command below to initialize SurrealDB:
+```SHELL
+surreal start --user root --pass root --bind 0.0.0.0:8000 rocksdb:/your/path/my-local-db/
+```
+Now, you can run the tests properly: 
+```
+npm run test
+```
+
 > [!IMPORTANT]
 > Comming soon, add new attributes in a specific record ;).
